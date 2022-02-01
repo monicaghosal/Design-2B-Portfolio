@@ -1,0 +1,21 @@
+body {
+    font-family: Supermercado One;
+    font-size: 28px;
+    background-color:#d6e4f5;
+}
+a {
+    padding: 20px;
+    margin-top: 4px;
+    box-align: center;
+    color: white;
+    background-color: #353f4f;
+    border-radius: 5px;
+}
+.links {
+    text-align: center;
+    margin-top: 10em;
+}
+.header{
+    text-align: center;
+    margin-bottom: 8em;
+}
