@@ -7,11 +7,12 @@
   
   .sign {
     position: absolute;
+    margin-right:20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     background-image: radial-gradient(
       ellipse 50% 35% at 50% 50%,
       #6b1839,

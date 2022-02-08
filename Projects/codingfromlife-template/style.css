@@ -1,0 +1,107 @@
+body {
+	background: #cccccc;
+}
+
+/* do NOT modify the canvas */
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+/* modify the assets below */
+
+ 
+
+ #square2, #square3 {
+	width: 200px;
+	height: 200px;
+	background: red;
+	top: 160px;
+	left: 350px;
+	position: absolute;
+}
+#square3 {
+	width: 900px;
+	height:850px;
+	background-color: brown;
+	left: 0%;
+	top: 100%;
+}
+.circle, #circle2, #circle3, #circle4, #circle5, #circle6, #circle7 {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	border-radius: 200px;
+	top: 70%;
+	left: 600px;
+	position: absolute;
+}
+#triangle2 {
+	width: 50px;
+	height: 150px;
+	position: absolute;
+	top: 33%
+}
+#circle2 {
+	width: 155px;
+	height: 25px;
+	left: 69%;
+
+}
+#circle3{
+	width: 75px;
+	height: 75px;
+	left:73%;
+	top:20%;
+	bottom:20%;
+	background-color:red;
+	z-index: 1000;
+}
+#circle4{
+	width: 85px;
+	height: 75px;
+	left: 67%;
+	top:20%;
+	bottom:20%;
+	background-color:lightpink;
+}
+#circle5{
+	width: 85px;
+	height: 75px;
+	left: 78%;
+	transform: rotate(90);
+	top:20%;
+	bottom:20%;
+	background-color:lightpink;
+}
+#circle6{
+	width: 85px;
+	height: 75px;
+	left: 73%;
+	transform: rotate(90);
+	top:31%;
+	bottom:20%;
+	background-color:lightpink;
+}
+#circle7{
+	width: 85px;
+	height: 75px;
+	left: 73%;
+	transform: rotate(90);
+	top:10%;
+	bottom:20%;
+	background-color:lightpink;
+}
+#square2 {
+	width: 275px;
+	height: 55px;
+	background-color: green;
+	left: 62%;
+	top: 40%;
+	transform: rotate(90deg);
+	position: absolute;
+}
