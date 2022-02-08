@@ -1,0 +1,50 @@
+body {
+    width: 100vw;
+    color: blue;
+    font-size: 78px;
+    animation: test2 1s infinite;
+    font-family: Arvo;
+}
+
+div {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    animation: test 3s linear alternate infinite;
+    margin-top: 1em;
+}
+
+/* Step 1: Mess around with this animation setup. See what happens */
+@keyframes test {
+    0% {
+        color: #7FB6FC;
+        transform: rotate3d(1, 2.0, 3.0, 10deg) skew(30deg, 20deg);
+    }
+
+    100% {
+        color:#FDA705;
+        transform: rotate3d(5, 7.0, 8.0, -50deg) skew(-75deg, -20deg);
+
+    }
+}
+@keyframes test2 {
+    0% {
+        background-color: red;
+    }
+    25%{
+        background-color:yellow; 
+    }
+    50% {
+        background-color: green;
+    }
+    75% {
+        background-color: indigo;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+/* Step 2: Try a hover transition for <p> using :hover and CSS transition properties. You'll probably need to turn off your animation for this.
