@@ -1,5 +1,4 @@
-
-  body {
+body {
     background-color: 	#011f4b;
     background-size: 58px 58px;
     background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
@@ -7,11 +6,12 @@
   
   .sign {
     position: absolute;
+    margin-right:20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     background-image: radial-gradient(
       ellipse 50% 35% at 50% 50%,
       #6b1839,
@@ -26,6 +26,13 @@
     font-size: 16px;
     color: #ffe6ff;
     animation: shine 2s forwards, flicker 3s infinite;
+  }
+
+  .other {
+  font-family: 'Courier New', Courier, monospace;    
+ text-align: right;
+ margin-top: 50%;
+ color: white;
   }
   
   @keyframes blink {

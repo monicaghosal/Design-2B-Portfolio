@@ -10,9 +10,6 @@ body {
   padding-top:40vh;
   height:100vh;
   overflow:hidden;
-  -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
-  -webkit-transform: translate3d(0,0,0);
 }
 
 div {
@@ -25,18 +22,18 @@ div:first-of-type {    /* For increasing performance
                        ID/Class should've been used. 
                        For a small demo 
                        it's okaish for now */
-  animation: showup 7s infinite;
-  font-size: large;
+  animation: showup 3s ease-in-out;
+  font-size: 30px;
 }
 
 div:last-of-type {
-  width:0px;
-  animation: reveal 10s infinite;
+  width:30px;
+  animation: reveal 5s infinite;
 }
 
 div:last-of-type span {
   margin-left:355px;
-  animation: slidein 7s infinite;
+  animation: slidein s infinite;
 }
 
 @keyframes showup {
