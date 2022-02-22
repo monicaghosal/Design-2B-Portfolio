@@ -52,3 +52,21 @@ h1 {
     transform: translate3d(0,5px,0);
   }
 }
+a {
+  position: fixed;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  top: 3%;
+  left: 10%;
+  font-size: 18px;
+  color: #fff;
+  
+}
+.home {
+  position: fixed;
+  font-family: sans-serif;
+  top: 3%;
+  left: 3%;
+  font-size: 18px;
+  color: #fff;
+}

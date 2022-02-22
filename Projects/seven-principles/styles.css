@@ -28,3 +28,11 @@ h1 {
     border-style: double;
     border-radius: 20px;
 }
+.home {
+	position: fixed;
+	font-family: sans-serif;
+	top: 3%;
+	left: 3%;
+	font-size: 18px;
+	color: #fff;
+}

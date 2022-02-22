@@ -9,11 +9,7 @@
     min-height: 100vh;
     background: #000;
   }
-  a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 24px;
-  }
+ 
   
   p {
     font-weight: 700;
@@ -41,6 +37,23 @@
       background-position-x: 500%;
     }
   }
-  
+  a {
+    position: fixed;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    top: 3%;
+    left: 10%;
+    font-size: 18px;
+    color: #fff;
+    
+  }
+  .home {
+    position: fixed;
+    font-family: sans-serif;
+    top: 3%;
+    left: 3%;
+    font-size: 18px;
+    color: #fff;
+  }
   /*  Checkout my other pens on  https://codepen.io/grohit/  */
   

@@ -64,3 +64,20 @@ p {
   color:#999;
   margin-top:200px;
 }
+a {
+  position: fixed;
+  font-family: sans-serif;
+  top: 3%;
+  left: 10%;
+  font-size: 18px;
+  color: #111111;
+  
+}
+.home {
+  position: fixed;
+  font-family: sans-serif;
+  top: 3%;
+  left: 3%;
+  font-size: 18px;
+  color: #111111;
+}

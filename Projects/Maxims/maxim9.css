@@ -33,3 +33,21 @@ body {
   from, to { border-color: transparent }
   50% { border-color: #80461b }
 }
+a {
+  position: fixed;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  top: 3%;
+  left: 10%;
+  font-size: 18px;
+  color: #111;
+  
+}
+.home {
+  position: fixed;
+  font-family: sans-serif;
+  top: 3%;
+  left: 3%;
+  font-size: 18px;
+  color: #111;
+}

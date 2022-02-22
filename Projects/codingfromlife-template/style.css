@@ -105,3 +105,11 @@ body {
 	transform: rotate(90deg);
 	position: absolute;
 }
+.home {
+	position: fixed;
+	font-family: sans-serif;
+	top: 3%;
+	left: 3%;
+	font-size: 18px;
+	color: #111;
+  }

@@ -20,3 +20,11 @@ img {
     border-radius: 7px;
     box-shadow:10px 5px 5px #F2F2F2 ;
 }
+.home {
+	position: fixed;
+	font-family: sans-serif;
+	top: 3%;
+	left: 3%;
+	font-size: 18px;
+	color: #111;
+}
