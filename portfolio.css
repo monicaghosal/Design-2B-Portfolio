@@ -7,9 +7,9 @@ src: url('Assets/fonts/Hatton-Medium.otf'),
 body {
     font-family: MyFirstFont;
     font-size: 18px;
-    background: linear-gradient(-45deg, #fff, rgb(228, 239, 245), #EBF8FF, #C9E4FF);
+    background: linear-gradient(-45deg, #fff, rgb(202, 236, 255), #EBF8FF, #C9E4FF);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 7s ease infinite;
     height: 100vh;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>✨</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
@@ -151,6 +151,10 @@ a:hover {
   width: 50%;
   position: relative;
   top: 2vh;
+}
+.introduction-section h3, .questions-section h3, .location-section h3 {
+  color:#e73c7e;
+
 }
 .questions-section a {
   background-color: white;
